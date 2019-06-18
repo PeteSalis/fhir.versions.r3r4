@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="fhir.versions.r3r4-0.1.0"/>
+  <text>
+    <status value="additional"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      NPM package for R3R4 maps of FHIR Release 4, see https://www.hl7.org/fhir/r3maps.html
+    </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
+    <valueString value="/Users/oliveregger/Documents/github/fhir.versions.r3r4/resources"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
+    <valueString value="/Users/oliveregger/Documents/github/fhir.versions.r3r4/maps"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages">
+    <valueString value="/Users/oliveregger/Documents/github/fhir.versions.r3r4/pages"/>
+  </extension>
+  <url value="http://hl7.org/fhir/versions/r3r4/ImplementationGuide/fhir.versions.r3r4-0.1.0"/>
+  <version value="0.1.0"/>
+  <name value="R3R4Maps"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2019-06-17T00:00:00+02:00"/>
+  <publisher value="Health Level Seven International (FHIR Infrastructure)"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/fhir"/>
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg/index.cfm"/>
+    </telecom>
+  </contact>
+  <copyright value="CC-BY-SA-4.0"/>
+  <packageId value="fhir.versions.r3r4"/>
+  <license value="CC-BY-SA-4.0"/>
+  <fhirVersion value="4.0.0"/>
+  <fhirVersion value="4.0.0"/>
+  <definition>
+    <grouping>
+      <name value="IG"/>
+    </grouping>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Account3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ActivityDefinition3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Address3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/AdverseEvent3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Age3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/AllergyIntolerance3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Annotation3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Appointment3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/AppointmentResponse3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Attachment3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/AuditEvent3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/BackboneElement3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Basic3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Binary3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/BodySite3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Bundle3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/CapabilityStatement3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/CarePlan3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/CareTeam3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ChargeItem3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Claim3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ClaimResponse3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ClinicalImpression3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/CodeSystem3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/CodeableConcept3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Coding3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Communication3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/CommunicationRequest3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/CompartmentDefinition3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Composition3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ConceptMap3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ConceptMaps3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Condition3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Consent3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ContactDetail3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ContactPoint3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Contract3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Contributor3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Count3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Coverage3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/EligibilityRequest3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/EligibilityResponse3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/DataRequirement3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/DetectedIssue3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Device3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/DeviceComponent3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/DeviceMetric3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/DeviceRequest3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/DeviceUseStatement3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/DiagnosticReport3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Distance3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/DocumentManifest3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/DocumentReference3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/DomainResource3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Dosage3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Duration3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Element3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ElementDefinition3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Encounter3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Endpoint3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/EnrollmentRequest3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/EnrollmentResponse3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/EntryDefinition3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/EpisodeOfCare3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ExplanationOfBenefit3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Expression3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Extension3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/FamilyMemberHistory3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Flag3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Goal3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/GraphDefinition3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Group3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/GuidanceResponse3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/HealthcareService3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/HumanName3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Identifier3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ImagingStudy3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Immunization3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ImmunizationRecommendation3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ImplementationGuide3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Library3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Linkage3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/List3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Location3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/MarketingStatus3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Measure3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/MeasureReport3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Media3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Medication3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/MedicationAdministration3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/MedicationDispense3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/MedicationRequest3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/MedicationStatement3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/MedicinalProductClinicals3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/MedicinalProductDeviceSpec3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/MessageDefinition3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/MessageHeader3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Meta3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Sequence3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Money3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/NamingSystem3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Narrative3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/NutritionOrder3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Observation3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/OccupationalData3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/OperationDefinition3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/OperationOutcome3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Organization3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/OrganizationRole3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ParameterDefinition3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Parameters3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Patient3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/PaymentNotice3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/PaymentReconciliation3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Period3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Person3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/PlanDefinition3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Practitioner3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/PractitionerRole3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Procedure3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ProcedureRequest3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ProcessRequest3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ProcessResponse3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ProdCharacteristic3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ProductPlan3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ProductShelfLife3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Provenance3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Quantity3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Questionnaire3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/QuestionnaireResponse3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Range3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Ratio3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Reference3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ReferralRequest3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/RelatedArtifact3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/RelatedPerson3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/RequestGroup3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ResearchStudy3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ResearchSubject3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Resource3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/RiskAssessment3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/SampledData3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Schedule3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/SearchParameter3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Signature3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Slot3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Specimen3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/SpecimenDefinition3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/StructureDefinition3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/StructureMap3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Subscription3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Substance3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/SubstanceAmount3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/SubstanceMoiety3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/SupplyDelivery3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/SupplyRequest3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Task3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/TerminologyCapabilities3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/TestReport3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/TestScript3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Timing3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/TriggerDefinition3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/UsageContext3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ValueSet3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/VisionPrescription3to4"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/primitives3to4"/>
+      </reference>
+    </resource>
+    <page>
+      <nameUrl value="index.html"/>
+      <title value="IG Templage Homepage"/>
+      <generation value="html"/>
+    </page>
+    <parameter>
+      <code value="generate-json"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="generate-xml"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="generate-turtle"/>
+      <value value="false"/>
+    </parameter>
+    <parameter>
+      <code value="apply"/>
+      <value value="version"/>
+    </parameter>
+    <parameter>
+      <code value="generate"/>
+      <value value="xml"/>
+    </parameter>
+    <parameter>
+      <code value="generate"/>
+      <value value="JSON"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>

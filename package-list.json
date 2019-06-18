@@ -1,0 +1,17 @@
+{
+    "package-id" : "fhir.versions.r3r4",
+    "title" : "FHIR r3r4 maps", 
+    "canonical" : "http://hl7.org/fhir/versions/r3r4", 
+    "introduction" : "fhir r3r4 maps in an implementation guide and npm package",
+    "list" : [{
+     "version" : "0.1.0",
+     "desc" : "Continuous Integration Build (latest in version control)",
+     "path" : "http://hl7.org/fhir/versions/r3r4",
+     "fhirVersion" : "4.0.0",  
+     "status" : "ci-build",
+     "current" : true,
+     "date" : "2019-06-08",
+     "sequence" : "STU1",
+     "fhir-version" : "4.0.0"  
+    }]
+   }

@@ -1,0 +1,22 @@
+---
+# jekyll prompt
+title:  Index page
+---
+
+{% include header.html %}
+
+
+<div class="col-9">
+    <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+ </div>
+ 
+ 
+<div class="col-9">
+  <a name="{{ site.data.fhir.igId }}"></a>
+
+  {% include list-structuremaps.xhtml %}
+
+</div>
+
+
+{% include footer.html %}
