@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="fhir.versions.r3r4-0.1.0"/>
+  <id value="ch.ahdis.ig.fhir.versions.r3r4-0.1.0"/>
   <text>
     <status value="additional"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
       NPM package for R3R4 maps of FHIR Release 4, see https://www.hl7.org/fhir/r3maps.html
     </div>
   </text>
-  <url value="http://hl7.org/fhir/versions/r3r4/ImplementationGuide/fhir.versions.r3r4-0.1.0"/>
+  <url value="http://ahdis.ch/ig/fhir/versions/r3r4/ImplementationGuide/ch.ahdis.ig.fhir.versions.r3r4-0.1.0"/>
   <version value="0.1.0"/>
   <name value="R3R4Maps"/>
   <status value="active"/>
@@ -33,7 +33,7 @@
   <fhirVersion value="4.0.0"/>
   <definition>
     <grouping>
-      <name value="IG"/>
+      <name value="R3R4"/>
     </grouping>
     <resource>
       <reference>
@@ -863,6 +863,836 @@
     <resource>
       <reference>
         <reference value="StructureMap/primitives3to4" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Account4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ActivityDefinition4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Address4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/AdverseEvent4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Age4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/AllergyIntolerance4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Annotation4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Appointment4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/AppointmentResponse4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Attachment4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/AuditEvent4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/BackboneElement4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Basic4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Binary4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/BodyStructure4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Bundle4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/CapabilityStatement4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/CarePlan4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/CareTeam4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ChargeItem4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Claim4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ClaimResponse4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ClinicalImpression4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/CodeSystem4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/CodeableConcept4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Coding4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Communication4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/CommunicationRequest4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/CompartmentDefinition4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Composition4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ConceptMap4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ConceptMaps4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Condition4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Consent4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ContactDetail4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ContactPoint4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Contract4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Contributor4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Count4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Coverage4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/CoverageEligibilityRequest4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/CoverageEligibilityResponse4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/DataRequirement4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/DetectedIssue4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Device4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/DeviceComponent4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/DeviceMetric4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/DeviceRequest4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/DeviceUseStatement4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/DiagnosticReport4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Distance4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/DocumentManifest4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/DocumentReference4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/DomainResource4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Dosage4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Duration4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Element4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ElementDefinition4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Encounter4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Endpoint4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/EnrollmentRequest4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/EnrollmentResponse4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/EntryDefinition4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/EpisodeOfCare4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ExplanationOfBenefit4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Expression4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Extension4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/FamilyMemberHistory4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Flag4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Goal4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/GraphDefinition4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Group4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/GuidanceResponse4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/HealthcareService4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/HumanName4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Identifier4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ImagingStudy4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Immunization4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ImmunizationRecommendation4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ImplementationGuide4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Library4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Linkage4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/List4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Location4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/MarketingStatus4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Measure4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/MeasureReport4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Media4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Medication4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/MedicationAdministration4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/MedicationDispense4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/MedicationRequest4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/MedicationStatement4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/MedicinalProductClinicals4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/MedicinalProductDeviceSpec4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/MessageDefinition4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/MessageHeader4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Meta4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Sequence4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Money4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/NamingSystem4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Narrative4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/NutritionOrder4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Observation4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/OccupationalData4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/OperationDefinition4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/OperationOutcome4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Organization4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/OrganizationRole4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ParameterDefinition4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Parameters4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Patient4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/PaymentNotice4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/PaymentReconciliation4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Period4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Person4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/PlanDefinition4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Practitioner4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/PractitionerRole4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Procedure4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ProcessRequest4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ProcessResponse4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ProdCharacteristic4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ProductPlan4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ProductShelfLife4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Provenance4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Quantity4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Questionnaire4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/QuestionnaireResponse4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Range4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Ratio4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Reference4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/RelatedArtifact4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/RelatedPerson4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/RequestGroup4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ResearchStudy4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ResearchSubject4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Resource4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/RiskAssessment4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/SampledData4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Schedule4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/SearchParameter4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ServiceRequestPR4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ServiceRequestRR4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Signature4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Slot4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Specimen4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/SpecimenDefinition4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/StructureDefinition4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/StructureMap4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Subscription4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Substance4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/SubstanceAmount4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/SubstanceMoiety4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/SupplyDelivery4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/SupplyRequest4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Task4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/TerminologyCapabilities4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/TestReport4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/TestScript4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/Timing4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/TriggerDefinition4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/UsageContext4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/ValueSet4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/VisionPrescription4to3" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureMap/primitives4to3" />
       </reference>
     </resource>
     <page>

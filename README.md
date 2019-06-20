@@ -5,16 +5,14 @@ ATTENTION: This is an experimental implementation guide, currently the R3R4 maps
 
 [The specification](https://www.hl7.org/fhir/r3maps.html) states that the maps are subject to ongoing maintenance using the FHIR NPM Package "fhir.versions.r3r4" which is maintained on [GitHub](https://github.com/FHIR/r3r4). This repository/ig will be submitted as a pull request for HL7, see [Zulip discusion](https://chat.fhir.org/#narrow/stream/179166-implementers/topic/Maps.20np.20mpackage.20for.20R3.20to.20R4.3F).
 
-1. Changes between FHIR source github:
-
+1. Changes between FHIR source github for r3r4 maps:
 * renamed BodyStructure.map to BodySite.map
 * renamed CoverageEligibilityRequest.map to EligibilityRequest.map
 * renamed CoverageEligibilityResponse.map to EligibilityResponse.map
 * renamed MolecularSequence3.map to Sequence.map
 
-2. Parsing Rule names keeps the double quotes for the rule names which is not valid for a rule name: StructureMap/ActivityDefinition3to4: StructureMap.group[3].rule[2].name error id value '"expression"' is not valid. 
-
-[Created a pull request/with a test case for that](https://github.com/hapifhir/org.hl7.fhir.core/pull/49)
+2. Changes between FHIR source github for r4r3 maps
+* renamed MolecularSequence to Sequence.map
 
 3. StructureMap/AdverseEvent3to4: StructureMap.group[1].rule[5].name	error	id value 'use description in leiu of type for event' is not valid
 changed to a line comment in AdverseEvent3to4.map
@@ -86,6 +84,27 @@ group Claim(source src : ClaimR3, target tgt : Claim) extends DomainResource <<t
 fhirPath rule checks not parameter/valueString #Use element, but pararmeter can also not be valueReference (only id|string|boolean|integer|decimal)
 zulip or gfore topic?
 
+6. Issue with div transformation between R3 and R4 and back
+
+div seems to StringType in R4 instead of xhtml from in npm package definition, why?
+
+frst problem that R3 TO R4 transformation did not show div Element, adjusted code but maybe wrongly
+
+second problem ist that
+
+ rule : div; vars = source variables [src: (Narrative)], target variables [tgt: (Narrative)], shared variables []
+source variables [src: (Narrative), vvv: "<div xmlns="http://www.w3.org/1999/xhtml">HACC Funded Billing for Peter James Chalmers</div>"], target variables [tgt: (Narrative), vvv: (xhtml)], shared variables []
 
 
+org.hl7.fhir.exceptions.FHIRException: No matches found for rule for 'string to xhtml' from http://hl7.org/fhir/StructureMap/Narrative4to3, from rule 'div'
+    at org.hl7.fhir.r4.utils.StructureMapUtilities.resolveGroupByTypes(StructureMapUtilities.java:1563)
+    at org.hl7.fhir.r4.utils.StructureMapUtilities.executeRule(StructureMapUtilities.java:1410)
+    at org.hl7.fhir.r4.utils.StructureMapUtilities.executeGroup(StructureMapUtiliti
 
+7. Using R3R4ConversionTests
+
+* Loaded fhir.core.4.0.0 package directly -> 66 errrors (otherwise code did not works anymor)
+* Loaded maps from IG -> duplicate problems with versions, code fix necessarc
+* still the same errors
+
+/Users/oliveregger/Documents/github/fhir/implementations/r3maps/outcoumes.json
