@@ -1,6 +1,6 @@
 {
   "resourceType" : "ImplementationGuide",
-  "id" : "fhir.versions.r3r4-0.1.0",
+  "id" : "ch.ahdis.ig.fhir.versions.r3r4-0.1.0",
   "text" : {
     "status" : "additional",
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      NPM package for R3R4 maps of FHIR Release 4, see https://www.hl7.org/fhir/r3maps.html\n    </div>"
@@ -11,13 +11,17 @@
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "/Users/oliveregger/Documents/github/fhir.versions.r3r4/maps"
+    "valueString" : "/Users/oliveregger/Documents/github/fhir.versions.r3r4/maps3to4"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
+    "valueString" : "/Users/oliveregger/Documents/github/fhir.versions.r3r4/maps4to3"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
     "valueString" : "/Users/oliveregger/Documents/github/fhir.versions.r3r4/pages"
   }],
-  "url" : "http://hl7.org/fhir/versions/r3r4/ImplementationGuide/fhir.versions.r3r4-0.1.0",
+  "url" : "http://ahdis.ch/ig/fhir/versions/r3r4/ImplementationGuide/ch.ahdis.ig.fhir.versions.r3r4-0.1.0",
   "version" : "0.1.0",
   "name" : "R3R4Maps",
   "status" : "active",
@@ -37,13 +41,13 @@
     }]
   }],
   "copyright" : "CC-BY-SA-4.0",
-  "packageId" : "fhir.versions.r3r4",
+  "packageId" : "ch.ahdis.ig.fhir.versions.r3r4",
   "license" : "CC-BY-SA-4.0",
   "fhirVersion" : ["4.0.0",
   "4.0.0"],
   "definition" : {
     "grouping" : [{
-      "name" : "IG"
+      "name" : "R3R4"
     }],
     "resource" : [{
       "reference" : {
@@ -243,6 +247,11 @@
     {
       "reference" : {
         "reference" : "StructureMap/Coverage3to4"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/DataElement3to4"
       }
     },
     {
@@ -873,6 +882,836 @@
     {
       "reference" : {
         "reference" : "StructureMap/primitives3to4"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Account4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/ActivityDefinition4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Address4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/AdverseEvent4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Age4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/AllergyIntolerance4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Annotation4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Appointment4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/AppointmentResponse4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Attachment4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/AuditEvent4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/BackboneElement4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Basic4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Binary4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/BodyStructure4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Bundle4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/CapabilityStatement4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/CarePlan4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/CareTeam4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/ChargeItem4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Claim4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/ClaimResponse4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/ClinicalImpression4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/CodeSystem4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/CodeableConcept4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Coding4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Communication4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/CommunicationRequest4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/CompartmentDefinition4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Composition4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/ConceptMap4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/ConceptMaps4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Condition4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Consent4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/ContactDetail4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/ContactPoint4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Contract4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Contributor4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Count4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Coverage4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/CoverageEligibilityRequest4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/CoverageEligibilityResponse4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/DataRequirement4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/DetectedIssue4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Device4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/DeviceComponent4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/DeviceMetric4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/DeviceRequest4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/DeviceUseStatement4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/DiagnosticReport4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Distance4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/DocumentManifest4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/DocumentReference4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/DomainResource4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Dosage4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Duration4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Element4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/ElementDefinition4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Encounter4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Endpoint4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/EnrollmentRequest4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/EnrollmentResponse4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/EntryDefinition4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/EpisodeOfCare4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/ExplanationOfBenefit4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Expression4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Extension4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/FamilyMemberHistory4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Flag4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Goal4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/GraphDefinition4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Group4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/GuidanceResponse4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/HealthcareService4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/HumanName4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Identifier4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/ImagingStudy4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Immunization4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/ImmunizationRecommendation4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/ImplementationGuide4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Library4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Linkage4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/List4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Location4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/MarketingStatus4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Measure4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/MeasureReport4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Media4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Medication4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/MedicationAdministration4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/MedicationDispense4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/MedicationRequest4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/MedicationStatement4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/MedicinalProductClinicals4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/MedicinalProductDeviceSpec4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/MessageDefinition4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/MessageHeader4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Meta4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/MolecularSequence4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Money4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/NamingSystem4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Narrative4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/NutritionOrder4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Observation4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/OccupationalData4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/OperationDefinition4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/OperationOutcome4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Organization4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/OrganizationRole4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/ParameterDefinition4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Parameters4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Patient4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/PaymentNotice4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/PaymentReconciliation4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Period4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Person4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/PlanDefinition4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Practitioner4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/PractitionerRole4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Procedure4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/ProcessRequest4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/ProcessResponse4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/ProdCharacteristic4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/ProductPlan4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/ProductShelfLife4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Provenance4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Quantity4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Questionnaire4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/QuestionnaireResponse4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Range4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Ratio4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Reference4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/RelatedArtifact4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/RelatedPerson4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/RequestGroup4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/ResearchStudy4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/ResearchSubject4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Resource4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/RiskAssessment4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/SampledData4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Schedule4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/SearchParameter4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/ServiceRequestPR4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/ServiceRequestRR4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Signature4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Slot4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Specimen4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/SpecimenDefinition4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/StructureDefinition4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/StructureMap4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Subscription4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Substance4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/SubstanceAmount4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/SubstanceMoiety4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/SupplyDelivery4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/SupplyRequest4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Task4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/TerminologyCapabilities4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/TestReport4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/TestScript4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/Timing4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/TriggerDefinition4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/UsageContext4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/ValueSet4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/VisionPrescription4to3"
+      }
+    },
+    {
+      "reference" : {
+        "reference" : "StructureMap/primitives4to3"
       }
     }],
     "page" : {

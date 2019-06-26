@@ -99,10 +99,6 @@ group string(source src : string, target tgt : stringR3) extends Element <<type+
   src.value as v -> tgt.value = v "string-value";
 }
 
-group stringToXhtml(source src : string, target tgt : xhtmlR3) extends Element <<type+>> {
-  src.value as v -> tgt.value = v "stringToXhtml-value";
-}
-
 group time(source src : time, target tgt : timeR3) extends Element <<type+>> {
   src.value as v -> tgt.value = v "time-value";
 }

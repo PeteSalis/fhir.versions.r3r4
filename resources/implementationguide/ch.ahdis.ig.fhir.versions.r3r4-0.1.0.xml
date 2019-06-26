@@ -237,6 +237,11 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureMap/DataElement3to4" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureMap/EligibilityRequest3to4" />
       </reference>
     </resource>
@@ -1357,7 +1362,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureMap/Sequence4to3" />
+        <reference value="StructureMap/MolecularSequence4to3" />
       </reference>
     </resource>
     <resource>
